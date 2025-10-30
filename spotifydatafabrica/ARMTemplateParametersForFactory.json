@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "spotifydatafabrica"
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"Ls_ADLS_accountKey": {
+			"value": ""
+		},
+		"Ls_AzureSqlDB_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "dexter.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "spotifyDatabase"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "dexter"
+		},
+		"Ls_ADLS_properties_typeProperties_url": {
+			"value": "https://spotifyadls1001.dfs.core.windows.net/"
+		},
+		"Ls_AzureSqlDB_properties_typeProperties_server": {
+			"value": "dexter.database.windows.net"
+		},
+		"Ls_AzureSqlDB_properties_typeProperties_database": {
+			"value": "spotifyDatabase"
+		},
+		"Ls_AzureSqlDB_properties_typeProperties_userName": {
+			"value": "dexter"
+		}
+	}
+}
